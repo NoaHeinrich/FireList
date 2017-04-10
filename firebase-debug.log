@@ -1,0 +1,14 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /Users/noah/.nvm/versions/node/v5.4.0/bin/node /Users/noah/.nvm/versions/node/v5.4.0/bin/firebase serve
+[debug] CLI Version:  3.0.8
+[debug] Platform:     darwin
+[debug] Node Version: v5.4.0
+[debug] Time:         Mon Apr 10 2017 10:32:36 GMT-0500 (CDT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /Users/noah/Desktop/firelist
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000
