@@ -8,7 +8,9 @@ $(document).ready(function(){
       var outputstring = outputstring + "<div class = 'postedAd'>";
       var headline = ad["title"];
       var content = ad["body"];
+      var posted = ad["dayPosted"];
       var outputstring = outputstring + "<h1>" + headline + "</h1>";
+      var outputstring = outputstring + "<p>" + posted + "</p>";
       var outputstring = outputstring + "<p>" + content + "</p>" + "</div>";
     }
     var box = document.getElementById("adbox");
