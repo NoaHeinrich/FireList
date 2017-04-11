@@ -20,9 +20,11 @@ $(document).ready(function(){
     var adbody = document.getElementById("body").value;
     $("#title").val('');
     $("#body").val('');
+    var d = new Date();
     firebase.database().ref().child('ads').push({
       title: adTitle,
-      body: adbody
+      body: adbody,
+      dayPosted: d.toDateString()
     })
   })
 })
