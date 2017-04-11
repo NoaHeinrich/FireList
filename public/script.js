@@ -11,7 +11,7 @@ $(document).ready(function(){
       var posted = ad["dayPosted"];
       var outputstring = outputstring + "<h1>" + headline + "</h1>";
       var outputstring = outputstring + "<p>" + posted + "</p>";
-      var outputstring = outputstring + "<p>" + content + "</p>" + "</div>";
+      var outputstring = outputstring + "<p>" + content + "</p>" + "</div><hr>" ;
     }
     var box = document.getElementById("adbox");
     box.innerHTML = outputstring;
@@ -30,3 +30,4 @@ $(document).ready(function(){
     })
   })
 })
+
