@@ -11,7 +11,7 @@ header {
 #postbox {
   font-family: Futura;
   background-color:#afb1b5;
-  padding-left: 50%;
+  padding-left: 35%;
 }
 
 #title {
@@ -20,6 +20,13 @@ header {
 
 #body{
   width: 50%;
-/*  width: 70%;
-  height: 400px;*/
+
+}
+
+.postedAd {
+  background-color: #e2bcbc;
+  width: 66%;
+  margin-left: 15%;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
