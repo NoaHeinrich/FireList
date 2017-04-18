@@ -1,0 +1,32 @@
+body {
+  background-color:#a0a0a0;
+}
+
+header {
+  font-family: Futura;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+#postbox {
+  font-family: Futura;
+  background-color:#afb1b5;
+  padding-left: 35%;
+}
+
+#title {
+  width:30%;
+}
+
+#body{
+  width: 50%;
+
+}
+
+.postedAd {
+  background-color: #e2bcbc;
+  width: 66%;
+  margin-left: 15%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
