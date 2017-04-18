@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  firebase.database().ref('ads').once('value').then(function(snapshot){
+  firebase.database().ref('ads').orderByChild("dayPosted").once('value').then(function(snapshot){
     var ad_list = snapshot.val();
     var outputstring = "";
     for (var key in ad_list) {
@@ -23,7 +23,7 @@ $(document).ready(function(){
   })
 
   function makeDiv (string, h, c, p) {
-    var string = string + "<div class='postedAd'><h1>" +h + "</h1><p>" + p + "</p><p>" + c + "</p></div><hr>";
+    var string = string + "<div class='postedAd'><h1>" +h + "</h1><p>" + p.toDateString() + "</p><p>" + c + "</p></div><hr>";
     return string;
   }
 
@@ -32,7 +32,7 @@ $(document).ready(function(){
     firebase.database().ref().child('ads').push({
       title: ttl,
       body: bdy,
-      dayPosted: d.toDateString()
+      dayPosted: d
     })
   }
 })
